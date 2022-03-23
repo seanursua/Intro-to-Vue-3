@@ -64,7 +64,7 @@ app.component('product-display', {
           this.selectedVariant = index
       },
       addReview(review) {
-          this.review.push(review)
+        this.reviews.push(review)
       }
   },
   computed: {
